@@ -2,6 +2,8 @@
 
 This repository demonstrates an issue wherein the mere act of packaging (`serverless package`) requires AWS authentication if a layer is included in `serverless.yml`.
 
+See the `serverless` issue at: https://github.com/serverless/serverless/issues/8187
+
 ## Usage
 
 Install:
