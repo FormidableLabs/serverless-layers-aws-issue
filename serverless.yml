@@ -16,6 +16,8 @@ provider:
   region: ${self:custom.region}
   stage: ${self:custom.stage}
 
+# ISSUE NOTE: If you comment out this entire `layers` section,
+# packaging works fine without needing AWS credentials.
 layers:
   base:
     path: layer
