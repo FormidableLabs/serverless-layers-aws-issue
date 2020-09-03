@@ -1,0 +1,11 @@
+{
+  "name": "serverless-layers-aws-issue",
+  "version": "0.0.1",
+  "description": "Demonstrate layers issue for serverless.",
+  "main": "index.js",
+  "author": "Ryan Roemer <ryan.roemer@formidable.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^1.81.1"
+  }
+}
