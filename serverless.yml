@@ -19,11 +19,11 @@ provider:
 # ISSUE NOTE: If you comment out this entire `layers` section,
 # packaging works fine without needing AWS credentials.
 layers:
-  base:
+  my-layer:
     path: layer
 
 functions:
-  base:
+  my-function:
     handler: index.handler
     events: # Use a generic proxy to allow Express app to route.
       - http: ANY /base
